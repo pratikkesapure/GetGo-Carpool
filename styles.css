@@ -1,0 +1,160 @@
+/* Custom CSS */
+.navbar-brand img {
+    height: 30px;
+    width: auto;
+  }
+
+
+/* Custom styles for dropdown menu */
+  .dropdown-menu {
+    left: auto !important;
+    right: 0 !important;
+  }
+
+  .verify-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  .verify-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .find-ride-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  .find-ride-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .publish-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  .publish-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .signup-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .bottom-section {
+    background-color: #e9ecef;
+    padding: 40px 0;
+    /* position: relative;
+    bottom: 0;
+    width: 100%; */
+    
+  }
+  
+  .search-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 25px;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    /* position: relative;
+    bottom: 0;
+    width: 100%; */
+  }
+  
+  .popular-routes {
+    padding: 40px 0;
+  }
+  
+  .popular-routes .route-container {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-radius: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .popular-routes .route-container:hover {
+    background-color: #e9ecef;
+  }
+  
+  .popular-routes .route {
+    display: flex;
+    align-items: center;
+  }
+  
+  .popular-routes .route .arrow {
+    margin: 0 10px;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-content {
+    flex: 1 0 auto;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    
+    
+  }
+
+  
+  
+  /* Override Bootstrap styles for Google Places Autocomplete */
+  .pac-container {
+    background-color: #fff;
+    z-index: 1051 !important;
+    position: fixed;
+    display: inline-block;
+    float: left;
+  }
